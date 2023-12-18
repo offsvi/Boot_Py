@@ -3,18 +3,24 @@ import time
 
 pyautogui.alert("Não mexa no computador, o código irá começar a rodar")
 
-pyautogui.pause = 1
+pyautogui.PAUSE = 2
 
-pyautogui.press('win')
+pyautogui.press("win")
 
-pyautogui.write('PowerShell')
-pyautogui.pause = 1
-pyautogui.press('enter')
+pyautogui.write("PowerShell")
+pyautogui.PAUSE = 2
+pyautogui.press("enter")
 
-pyautogui.pause = 1
+pyautogui.PAUSE = 2
 
-pyautogui.write('ping https://google.com.br')
+pyautogui.write("ping 192.168.75.1")
+pyautogui.press("enter")
 
-pyautogui.pause = 5
+pyautogui.PAUSE = 6
 
-pyautogui.write('exit')
+pyautogui.write("gpupdate /force")
+pyautogui.press("enter")
+pyautogui.PAUSE = 12
+
+pyautogui.write("exit")
+pyautogui.press("enter")
