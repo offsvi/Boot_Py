@@ -16,7 +16,7 @@ pyautogui.PAUSE = 2
 pyautogui.write("ping 192.168.75.1")
 pyautogui.press("enter")
 
-pyautogui.PAUSE = 6
+pyautogui.PAUSE = 6 
 
 pyautogui.write("gpupdate /force")
 pyautogui.press("enter")
