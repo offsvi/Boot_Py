@@ -5,7 +5,7 @@ pyautogui.alert("Não mexa no computador, o código irá começar a rodar")
 
 pyautogui.PAUSE = 2
 
-pyautogui.press("win")
+pyautogui.press("win") 
 
 pyautogui.write("PowerShell")
 pyautogui.PAUSE = 2
