@@ -8,9 +8,10 @@ pyautogui.alert("Não mexa no computador, o código irá começar a rodar")
 # Pause utiliza a biblioteca time e utiliza uma pausa entre um código e outro
 pyautogui.PAUSE = 2
 
-
+#"press" serve para fazer a junção entre os botões do teclado 
 pyautogui.press("win")
 
+#write escreve no campo que está selecionado
 pyautogui.write("PowerShell")
 pyautogui.PAUSE = 2
 pyautogui.press("enter")
