@@ -1,5 +1,5 @@
-#Importando biblioteca Pyautogui e Time 
-import pyautogui 
+#Importando biblioteca Pyautogui e Time.
+import pyautogui
 import time 
 
 # Alert irá mostrar uma janela com o texto das aspas 
