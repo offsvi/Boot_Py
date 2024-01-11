@@ -12,7 +12,7 @@ pyautogui.PAUSE = 2
 pyautogui.press("win")
 
 #write escreve no campo que está selecionado
-pyautogui.write("PowerShell") 
+pyautogui.write("PowerShell")
 pyautogui.PAUSE = 2
 pyautogui.press("enter")
 
